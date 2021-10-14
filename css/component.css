@@ -57,7 +57,7 @@ body {
 
 .gr-gallery figure {
 	position: absolute;
-	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 }
 
 .no-js .gr-gallery figure {
@@ -67,7 +67,7 @@ body {
 }
 
 .gr-gallery figure::before {
-	content: '';
+	
 	position: absolute;
 	width: 180%;
 	height: 150%;

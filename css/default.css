@@ -57,7 +57,7 @@ a {
 
 .js .container > h1 {
 	position: fixed;
-	-webkit-backface-visibility: hidden;
+	backface-visibility: visible;
 	bottom: 0;
 	left: 0;
 	color: #f0f0f0;
